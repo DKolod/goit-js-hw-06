@@ -9,6 +9,7 @@ function oninputChange(event) {
 
     if (event.currentTarget.value.length !== Number(refs.input.dataset.length)) {
         refs.input.classList.add('invalid');
+         refs.input.classList.remove('valid');
              
     } else {
         refs.input.classList.remove('invalid');

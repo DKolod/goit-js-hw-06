@@ -12,7 +12,7 @@ function onFormSubmit(event) {
         userPass,
     }
 
-    console.log(userData);
+    
 
     form.reset()
 
@@ -20,5 +20,5 @@ function onFormSubmit(event) {
         alert('Всі поля повинні бути заповнені')
     }
   
-    
+    console.log(userData);
 }
